@@ -66,7 +66,7 @@ public class CubeForm extends Form {
      */
     public static void main(final String[] args) {
         CubeForm form = new CubeForm();
-        form.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        form.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         form.pack();
         form.setVisible(true);
         form.setDefaultSize(Form.HALFSCREEN);
